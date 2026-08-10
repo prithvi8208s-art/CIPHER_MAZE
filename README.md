@@ -141,3 +141,18 @@ Each letter is rotated by 13 positions.
 A → N
 B → O
 C → P
+
+
+
+---
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| Tkinter | Graphical User Interface |
+| Canvas | Maze rendering |
+| `random` | Random maze generation |
+| `collections.deque` | BFS queue |
+
+---
