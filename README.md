@@ -51,7 +51,8 @@ The game currently includes:
 
 After successfully decrypting the message, the maze path is unlocked.
 
-The game uses **Breadth-First Search (BFS)** to calculate a path from the starting point to the exit.
+The game uses **Breadth-First Search (BFS)** to calculate the shortest path from the starting point to the exit.
+
 
 ### Phase 3 — Escape
 
@@ -63,8 +64,22 @@ Navigate through the maze using:
 Reach the ⭐ exit before the timer runs out.
 
 You can also use **Auto-Solve** to watch the BFS path being followed automatically.
-
+THEN YOU WILL BE MOVED TO LEVEL 2
 ---
+
+## 📸 Screenshots
+
+### 🎮 Main Game
+
+![Cipher Maze Main Game](<MAIN GAME SCREEN.png>)
+
+### 🔐 Maze After Decrypting
+
+![Maze After Decrypting](<MAZE AFTER DECRYPTING.png>)
+
+### 🏆 Maze Solved
+
+![Maze Solved](<MAZE SOLVED.png>)
 
 ## 🧠 Algorithms Used
 
@@ -88,3 +103,41 @@ BFS is used to find a path from the starting position to the exit.
 
 ```text
 Start → Maze → Exit
+```
+
+Because every movement has equal cost, BFS finds the shortest path from the starting position to the exit.
+
+---
+
+## 🔐 Cryptography
+
+The project demonstrates three classical cipher techniques.
+
+### Caesar Cipher
+
+Letters are shifted by 3 positions.
+
+```text
+D → A
+E → B
+F → C
+```
+
+### Atbash Cipher
+
+The alphabet is mirrored.
+
+```text
+A ↔ Z
+B ↔ Y
+C ↔ X
+```
+
+### ROT-13
+
+Each letter is rotated by 13 positions.
+
+```text
+A → N
+B → O
+C → P
